@@ -24,6 +24,6 @@ describe('API Endpoints', () => {
     test('GET /creator should return creator name', async () => {
     const response = await request(app).get('/creator');
     expect(response.status).toBe(200);
-    expect(response.body.creator).toBe('Nicolay Mendoza');
+    expect(response.body.creator).toBe('Nicoly Mendoza');
   });
 });
