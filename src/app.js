@@ -9,6 +9,11 @@ app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date() });
 });
 
+app.get('/version', (req, res) => {
+  res.json({ version: '1.0.0' });
+});
+
+
 module.exports = app;
 
 if (require.main === module) {
