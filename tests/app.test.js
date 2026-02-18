@@ -20,4 +20,10 @@ describe('API Endpoints', () => {
     expect(response.status).toBe(200);
     expect(response.body.version).toBe('1.0.0');
     });
+
+    test('GET /creator should return creator name', async () => {
+    const response = await request(app).get('/creator');
+    expect(response.status).toBe(200);
+    expect(response.body.creator).toBe('Nicolay Mendoza');
+  });
 });

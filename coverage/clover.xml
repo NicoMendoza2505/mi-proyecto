@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1771383874527" clover="3.2.0">
-  <project timestamp="1771383874528" name="All files">
-    <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="4" coveredmethods="3" elements="21" coveredelements="14" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+<coverage generated="1771385251190" clover="3.2.0">
+  <project timestamp="1771385251191" name="All files">
+    <metrics statements="15" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="5" coveredmethods="4" elements="24" coveredelements="17" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="app.js" path="C:\Users\nicol\OneDrive\Documentos\GitHub\mi-proyecto\src\app.js">
-      <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <metrics statements="15" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="5" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -12,11 +12,13 @@
       <line num="9" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
-      <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
