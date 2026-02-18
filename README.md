@@ -38,6 +38,7 @@ Se implementaron pruebas para los siguientes endpoints:
 - GET `/`
 - GET `/health`
 - GET `/version`
+- GET `/creator`
 
 Se utiliza Jest y Supertest para validar las respuestas del servidor.
 
@@ -53,9 +54,10 @@ Si todas las pruebas pasan correctamente, el pipeline:
 
 URL del sitio desplegado:
 
-https://TUUSUARIO.github.io/mi-proyecto/
+https://nicomendoza2505.github.io/mi-proyecto/
 
----
+
+--
 
 ## ⚠️ Desafíos enfrentados
 
